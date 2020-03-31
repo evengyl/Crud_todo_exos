@@ -1,0 +1,10 @@
+﻿<Application x:Class="CRUD_TODO_EXOS.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:CRUD_TODO_EXOS"
+             xmlns:vm="clr-namespace:CRUD_TODO_EXOS.ViewModel"
+             StartupUri="/View/View_TodoList.xaml">
+    <Application.Resources>
+        <vm:ViewModel_TodoList x:Key="Main" />
+    </Application.Resources>
+</Application>
